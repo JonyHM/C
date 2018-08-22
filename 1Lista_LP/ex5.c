@@ -15,8 +15,8 @@ int main() {
 		if(nota > 10 || nota < 0){
 			printf("Erro! Nota Inválida! Insira um numero valido: ");
 			scanf("%d", &nota);
-		}else if(nota > maior){maior = nota;}
-		if(nota < menor){menor = nota;}
+		}else if(nota > maior) maior = nota;
+		if(nota < menor) menor = nota;
 	}
 	
 	printf("\nMaior nota: %d. Menor nota: %d\n", maior, menor);
