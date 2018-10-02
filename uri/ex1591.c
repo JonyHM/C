@@ -58,6 +58,8 @@ int main(){
 		}
 
 		//here we have to test the arrays, checking if the given words on "words" are in the puzzle "puzzle" 
+		
+		
 
 	}
 	return 0;
